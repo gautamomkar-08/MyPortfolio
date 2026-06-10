@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyPortfolio</title>
     <link rel="stylesheet" href="style2.css" />
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -128,17 +130,32 @@
 
     <!-- Contact -->
     <section id="contact">
-        <h2 class="section-title">Contact Me</h2>
+        <h2>Contact Me</h2>
 
-        <form class="contact-form">
-            <input type="text" placeholder="Your Name" required>
+        <p>
+            Have a project in mind or looking for a web developer?
+            Feel free to reach out. I'm always open to discussing
+            new opportunities, freelance projects, and collaborations.
+        </p>
 
-            <input type="email" placeholder="Your Email" required>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
 
-            <textarea rows="4" placeholder="Your Message"></textarea>
+            <input type="email" name="email" placeholder="Your Email" required>
 
-            <button type="submit" class="btn">Send Message</button>
+            <input type="text" name="subject" placeholder="Subject">
+
+            <textarea name="message" rows="6" placeholder="Write your message here..." required></textarea>
+
+            <button type="submit">Send Message</button>
         </form>
+
+        <div class="contact-info">
+            <p>📧 Email: yourname@gmail.com</p>
+            <p>💼 LinkedIn: linkedin.com/in/yourusername</p>
+            <p>🐙 GitHub: github.com/yourusername</p>
+            <p>📍 Location: Madhya Pradesh, India</p>
+        </div>
     </section>
 
     <!-- Footer -->

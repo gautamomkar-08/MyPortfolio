@@ -159,7 +159,7 @@ section {
     background: linear-gradient(to right, #38bdf8, #2563eb);
 }
 
-.project-content {
+/* .project-content {
     padding: 25px;
 }
 
@@ -193,6 +193,55 @@ section {
 
 .contact-form textarea {
     resize: none;
+} */
+
+#contact {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    margin-bottom: 15px;
+}
+
+#contact p {
+    margin-bottom: 20px;
+    color: #555;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input,
+textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.contact-info {
+    margin-top: 25px;
+    text-align: left;
 }
 
 footer {
