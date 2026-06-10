@@ -85,10 +85,11 @@ nav a:hover {
 }
 
 .hero-img img {
+    height: 400px;
     width: 350px;
     border-radius: 50%;
     border: 5px solid #38bdf8;
-    box-shadow: 0 0 25px #38bdf8;
+    box-shadow: 0 0 15px #82c8e5;
 }
 
 section {
