@@ -11,25 +11,20 @@
     <meta name="author" content="Gautam Omkar" />
     <title>Gautam Omkar | Full Stack Web Developer</title>
 
-    <!-- Google Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
         integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
-    <!-- Stylesheet -->
     <link rel="stylesheet" href="style2.css" />
 </head>
-
 <body>
     <!-- Header / Navbar -->
     <header id="header">
         <div class="container nav-container">
-            <!-- <a href="#home" class="logo" aria-label="Gautam Omkar Home">
+            <a href="#home" class="logo" aria-label="Gautam Omkar Home">
                 <span class="logo-badge">G</span>
                 <span>Gautam<span class="dot">.dev</span></span>
-            </a> -->
+            </a>
 
             <!-- Desktop Navigation Links -->
             <nav class="nav-links" id="nav-links" aria-label="Main Navigation">
@@ -45,25 +40,12 @@
                 <button class="theme-toggle-btn" id="theme-toggle" aria-label="Toggle light or dark theme"
                     title="Switch Theme">
                     <!-- Sun Icon (for light mode) -->
-                    <svg id="sun-icon" style="display:none;" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                    <!-- Moon Icon (for dark mode) -->
-                    <svg id="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                        stroke-linecap="round" stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                </button>
+                    <i class="fa-solid fa-sun" id="sun-icon"></i>
 
+                    <!-- Moon Icon (for dark mode) -->
+                    <i class="fa-solid fa-moon" id="moon-icon"></i>
+                </button>
+                
                 <!-- Mobile Hamburger Button -->
                 <button class="menu-toggle" id="menu-toggle" aria-label="Open mobile navigation menu"
                     aria-expanded="false">
@@ -188,7 +170,7 @@
         <section id="about">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag">Get To Know Me</span>
+                    <!-- <span class="section-tag">Get To Know Me</span> -->
                     <h2 class="section-title">About Me</h2>
                     <p class="section-subtitle">A blend of creative UI craftsmanship and reliable engineering</p>
                 </div>
@@ -276,7 +258,7 @@
         <section id="skills">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag">My Toolbox</span>
+                    <!-- <span class="section-tag">My Toolbox</span> -->
                     <h2 class="section-title">Skills & Technologies</h2>
                     <p class="section-subtitle">Technologies and tools I use to build robust digital solutions</p>
                 </div>
@@ -293,16 +275,7 @@
                             <div class="skill-icon-box">
                                 <i class="fa-brands fa-html5" style="font-size: 24px; color: #E34F26;"></i>
                             </div>
-                            <span class="skill-name">HTML5</span>
-                            <span class="skill-level-pill">Advanced</span>
-                        </div>
-
-                        <!-- CSS3 -->
-                        <div class="skill-card">
-                            <div class="skill-icon-box">
-                                <i class="fa-brands fa-css3-alt" style="font-size: 24px; color: #1572B6;"></i>
-                            </div>
-                            <span class="skill-name">CSS3</span>
+                            <span class="skill-name">HTML5 & CSS3</span>
                             <span class="skill-level-pill">Advanced</span>
                         </div>
 
@@ -451,7 +424,7 @@
         <section id="projects">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag">Featured Work</span>
+                    <!-- <span class="section-tag">Featured Work</span> -->
                     <h2 class="section-title">Recent Projects</h2>
                     <p class="section-subtitle">Real-world full stack applications built with modern tools</p>
                 </div>
@@ -624,7 +597,7 @@
         <section id="contact">
             <div class="container">
                 <div class="section-header">
-                    <span class="section-tag">Let's Connect</span>
+                    <!-- <span class="section-tag">Let's Connect</span> -->
                     <h2 class="section-title">Get In Touch</h2>
                     <p class="section-subtitle">Have a project in mind or want to collaborate? Send a message or reach
                         out directly.</p>
@@ -716,7 +689,7 @@
                                     <span style="color: var(--accent);">*</span>
                                 </label>
                                 <input type="text" id="name" name="name" class="form-control"
-                                    placeholder="e.g. Alex Johnson" required />
+                                    placeholder="e.g. Gautam Omkar" required />
                             </div>
 
                             <div class="form-group">
@@ -725,7 +698,7 @@
                                     <span style="color: var(--accent);">*</span>
                                 </label>
                                 <input type="email" id="email" name="email" class="form-control"
-                                    placeholder="name@example.com" required />
+                                    placeholder="gautam@example.com" required />
                             </div>
 
                             <div class="form-group">
@@ -740,7 +713,7 @@
                                     <span style="color: var(--accent);">*</span>
                                 </label>
                                 <textarea id="message" name="message" class="form-control" rows="5"
-                                    placeholder="Tell me about your project, goals, or timeline..." required></textarea>
+                                    placeholder="Tell me about projects, goals, or timeline..." required></textarea>
                             </div>
 
                             <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
