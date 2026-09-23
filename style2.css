@@ -207,7 +207,7 @@ section {
 /* Gradient Text Helper */
 .gradient-text {
     background: var(--accent-gradient);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
 }
@@ -765,7 +765,7 @@ nav.nav-links a.active::after {
     font-size: clamp(28px, 3.5vw, 40px);
     font-weight: 800;
     background: var(--accent-gradient);
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 4px;
 }
